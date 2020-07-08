@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Montez');
+@import url(https://fonts.googleapis.com/css?family=Francois+One);
+
+body {
+  font-family: Avenir;
+}
+#top-side-split {
+    display:inline-block;
+}
+
+#projects-text {
+    width: 50%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+
+.service img {
+    height: 20px;
+    vertical-align:middle;
+}
+
+/* .value-header img {
+    display:inline-block;
+    vertical-align:middle
+} */
+
+#about-services{
+    width: 900px;
+    font-size: 17px;
+
+}
+.page-header{
+    width: 580px;
+    font-size: 30px;
+}
+
+.service-header b {
+    /* display:inline-block; */
+    vertical-align:middle;
+    margin-left:5px;
+}
+
+.service .para {
+    margin-top: 0px;
+    margin-bottom:25px;
+    margin-left: 0px;
+}
+
+
+#client-container {
+    margin-left: 2%;
+    width: 150%;
+    display:inline-block;
+    vertical-align: top;
+    /* background-color:pink; */
+}
+
+#clients {
+    margin-top:20px;
+}
+
+#clients img {
+    object-fit: contain;
+    width: 11%;
+    /* height: 35px; */
+    margin-left:0%;
+    margin-right:2.3%;
+    /* margin-right: 38px; */
+    margin-bottom: 25px;
+    vertical-align:middle;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: -10px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.grid-item {
+  width: 427px;
+  height: 90px;
+  background-color: rgba(255, 255, 255, 0.8);
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  padding: 0px;
+  padding-top: 20px;
+  font-size: 30px;
+  margin-right: 30px;
+  /*text-align: center;*/
+}
+.service{
+    font-size: 16px;
+}
+
+/*BLOCKQUOTE STUFF*/
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Avenir;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #666;
+
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 1px 1px 15px #ccc;
+
+  /*Borders - (Optional)*/
+  border-left-style: solid;
+  border-left-width: 15px;
+  /*border-right-style: solid;*/
+  /*border-right-width: 4px;    */
+/*  border-top-style:solid;
+  border-top-width: :1px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;*/
+  width: 140%;
+
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+  
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+blockquote a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
+}
+
+blockquote a:hover{
+ color: #666;
+}
+
+blockquote em{
+  font-style: italic;
+}
+
+  /*Default Color Palette*/
+
+/*Mint Color Palette*/
+
+/*Gray Color Palette*/
+blockquote.gray{
+  border-left-color: #3380C4;
+  /*border-right-color: gray;*/
+}
+
+
+/* These CSS classes used just for Demo purpose */
+.heading{
+   font-family:Montez;
+   text-align:center;
+   font-size:30px;
+}
+code{
+  color:#da4453;
+}
+span{
+  font-weight:bolder;
+  
+}
+h1{
+  text-align:left;
+  font-size:16px;
+  font-family: 'Francois One', sans-serif;
+}
+
+span.Cdefault{
+  color:#434a53;
+}
+span.Cgrapefruit{
+  color:#da4453;
+}
+span.Cbittersweet{
+  color:#e95546;
+}
+span.Csunflower{
+  color:#f6ba59;
+}
+span.Cgrass{
+  color:#8bc163;
+}
+span.Cmint{
+  color:#34bc9d;
+}
+span.Caqua{
+  color:#3bb0d6;
+}
+span.Cbluejeans{
+  color:#4b8ad6;
+}
+span.Clavander{
+  color:#977bd5;
+}
+span.Cpinkrose{
+  color:#d870a9;
+}
+span.Clight{
+  color:#e6e9ed;
+}
+span.Cgray{
+  color:#aab2bc;
+}
+.gray p{
+    font-size: 17px;
+}
+
+
